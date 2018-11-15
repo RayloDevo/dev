@@ -32,6 +32,20 @@ Example:
 http://localhost/api/AddStream?key=$key&IMDB=$IMDB&MediaStream=$MediaStream&MediaType=$MediaType&MediaIMG=$MediaIMG&MediaSound=$MediaSound&MediaLang=$MediaLang
 ```
 
+#### Media hinzufügen ####
+**Endpoint**: /api/AddMedia
+
+**Method**: GET
+- $key
+- $IMDB
+- $MediaType (movie/tvshow)
+- $MediaLang (de/en)
+
+Example:
+```php
+http://localhost/api/AddMedia?key=$key&IMDB=$IMDB&MediaType=$MediaType&MediaLang=$MediaLang
+```
+
 
 
 #### Error Codes
