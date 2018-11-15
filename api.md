@@ -55,3 +55,4 @@ Api Error Codes:
 -	3: Keine methode für die api gesetzt
 -	4: Api Parameter prüfen
 -	5: Episoden oder Staffel Parameter fehlt
+-	6: Parameter zum hinzufügen der Media fehlen oder sind nicht gesetzt
